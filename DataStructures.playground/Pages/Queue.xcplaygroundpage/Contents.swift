@@ -16,7 +16,10 @@ example(of: "Enqueue items onto queue", isExecute: true) {
 }
 example(of: "Dequeue items from queue", isExecute: true) {
 	print("dequeue: \(String(describing: queue.dequeue())), \tQ ⇢ \(queue.description)")
+
+	print("peek   : \(String(describing: queue.peek)), \tQ ⇢ \(queue.description)")
 	print("dequeue: \(String(describing: queue.dequeue())), \tQ ⇢ \(queue.description)")
+	
 	print("dequeue: \(String(describing: queue.dequeue())), \tQ ⇢ \(queue.description)")
 	print("dequeue: \(String(describing: queue.dequeue())), \t\tQ ⇢ \(queue.description)")
 }
