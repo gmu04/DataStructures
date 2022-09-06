@@ -1,5 +1,5 @@
 # DataStructures
-Playground contains swift implementation of the following data structures:
+Playground project contains the implementation of the following data structures:
 * LinkedList
 * Stack
 * Queue
